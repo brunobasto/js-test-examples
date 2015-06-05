@@ -1,0 +1,7 @@
+{
+	"autoWatch": false,
+	"basePath": "./",
+	"browsers": ["PhantomJS"],
+	"colors": true,
+	"reporters": ["dots", "progress"]
+}
