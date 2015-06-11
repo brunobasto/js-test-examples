@@ -3,5 +3,8 @@
 	"basePath": "./",
 	"browsers": ["PhantomJS"],
 	"colors": true,
-	"reporters": ["dots", "progress"]
+	"reporters": ["dots", "progress"],
+	"files": [
+		"src/human.js"
+	]
 }

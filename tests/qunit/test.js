@@ -2,11 +2,11 @@ QUnit.module(
 	'QUnit Test Suite',
 	{
 		beforeEach: function() {
-			this.array = [];
+			this.bruno = new Human('Bruno', 'Basto');
 		},
 
 		afterEach: function() {
-			this.array = null;
+			this.bruno.destroy();
 		}
 	}
 );
@@ -14,8 +14,9 @@ QUnit.module(
 QUnit.test(
 	'Qunit Test',
 	function(assert) {
-		assert.ok(
-			this.array.length === 0,
+		assert.equal(
+			this.bruno.getFullName(),
+			'Bruno Basto',
 			'This assertion should pass.'
 		);
 	}

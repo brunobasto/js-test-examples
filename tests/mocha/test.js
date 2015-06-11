@@ -3,20 +3,23 @@ describe(
 	function() {
 		beforeEach(
 			function() {
-				this.array = [];
+				this.bruno = new Human('Bruno', 'Basto');
 			}
 		);
 
 		afterEach(
 			function() {
-				this.array = null;
+				this.bruno.destroy();
 			}
 		);
 
 		it(
 			'should pass this test.',
 			function() {
-				chai.assert.equal(this.array.length, 0);
+				chai.assert.equal(
+					this.bruno.getFullName(),
+					'Bruno Basto'
+				);
 			}
 		);
 	}

@@ -3,20 +3,20 @@ describe(
 	function() {
 		beforeEach(
 			function() {
-				this.array = [];
+				this.bruno = new Human('Bruno', 'Basto');
 			}
 		);
 
 		afterEach(
 			function() {
-				this.array = null;
+				this.bruno.destroy();
 			}
 		);
 
 		it(
 			'should pass this test.',
 			function() {
-				expect(this.array.length).toBe(0);
+				expect(this.bruno.getFullName()).toBe('Bruno Basto');
 			}
 		);
 	}
