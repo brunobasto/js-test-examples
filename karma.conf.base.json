@@ -3,6 +3,21 @@
 	"basePath": "./",
 	"browsers": ["Chrome"],
 	"colors": true,
+	"coverageReporter": {
+		"dir": "coverage",
+		"reporters": [
+			{
+				"type": "html"
+			},
+			{
+				"type": "json",
+				"file": "coverage.json"
+			}
+		]
+	},
+	"preprocessors": {
+		"src/*.js": ["coverage"]
+	},
 	"reporters": ["coverage", "dots", "progress"],
 	"files": [
 		"src/human.js"
