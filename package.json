@@ -1,43 +1,43 @@
 {
-	"name": "js-test-examples",
-	"version": "0.0.1",
-	"description": "Examples of various JavaScript unit test frameworks.",
-	"dependencies": {},
-	"devDependencies": {
-		"chai": "^1.10.0",
-		"jasmine-core": "^2.3.4",
-		"karma": "^0.12.31",
-		"karma-chai": "^0.1.0",
-		"karma-jasmine": "^0.2.2",
-		"karma-mocha": "^0.1.10",
-		"karma-phantomjs-launcher": "~0.1",
-		"karma-qunit": "^0.1.4",
-		"mocha": "^2.1.0",
-		"qunitjs": "^1.18.0"
-	},
-	"scripts": {
-		"jasmine": "node_modules/karma/bin/karma start karma.conf.jasmine.js --singleRun",
-		"mocha": "node_modules/karma/bin/karma start karma.conf.mocha.js --singleRun",
-		"qunit": "node_modules/karma/bin/karma start karma.conf.qunit.js --singleRun",
-		"watch-jasmine": "node_modules/karma/bin/karma start karma.conf.jasmine.js --auto-watch --no-single-run",
-		"watch-mocha": "node_modules/karma/bin/karma start karma.conf.mocha.js --auto-watch --no-single-run",
-		"watch-qunit": "node_modules/karma/bin/karma start karma.conf.qunit.js --auto-watch --no-single-run"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/brunobasto/js-test-examples.git"
-	},
-	"keywords": [
-		"chai",
-		"jasmine",
-		"JavaScript",
-		"jQuery",
-		"js",
-		"karma",
-		"mocha",
-		"QUnit",
-		"test",
-		"unit"
-	],
-	"license": "LGPL"
+  "name": "js-test-examples",
+  "version": "0.0.1",
+  "description": "Examples of various JavaScript unit test frameworks.",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.12.31",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.1.12",
+    "karma-jasmine": "^0.2.2",
+    "karma-mocha": "^0.1.10",
+    "karma-qunit": "^0.1.4",
+    "mocha": "^2.1.0",
+    "qunitjs": "^1.18.0"
+  },
+  "scripts": {
+    "jasmine": "node_modules/karma/bin/karma start karma.conf.jasmine.js --singleRun",
+    "mocha": "node_modules/karma/bin/karma start karma.conf.mocha.js --singleRun",
+    "qunit": "node_modules/karma/bin/karma start karma.conf.qunit.js --singleRun",
+    "watch-jasmine": "node_modules/karma/bin/karma start karma.conf.jasmine.js --auto-watch --no-single-run",
+    "watch-mocha": "node_modules/karma/bin/karma start karma.conf.mocha.js --auto-watch --no-single-run",
+    "watch-qunit": "node_modules/karma/bin/karma start karma.conf.qunit.js --auto-watch --no-single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brunobasto/js-test-examples.git"
+  },
+  "keywords": [
+    "chai",
+    "jasmine",
+    "JavaScript",
+    "jQuery",
+    "js",
+    "karma",
+    "mocha",
+    "QUnit",
+    "test",
+    "unit"
+  ],
+  "license": "LGPL"
 }

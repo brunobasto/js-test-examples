@@ -1,9 +1,9 @@
 {
 	"autoWatch": false,
 	"basePath": "./",
-	"browsers": ["PhantomJS"],
+	"browsers": ["Chrome"],
 	"colors": true,
-	"reporters": ["dots", "progress"],
+	"reporters": ["coverage", "dots", "progress"],
 	"files": [
 		"src/human.js"
 	]
