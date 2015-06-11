@@ -11,3 +11,5 @@ Runnning Mocha Tests:
 
 Runnning QUnit Tests:
 ``npm run qunit``
+
+![Exmaple](http://ibin.co/24s8OoIZeuDs "Exmaple of usage")
