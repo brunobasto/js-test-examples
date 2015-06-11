@@ -1,6 +1,6 @@
 Examples of various JavaScript unit test frameworks.
 
-Instalation:
+Installation:
 ``npm install``
 
 Runnning Jasmine Tests:
